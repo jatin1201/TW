@@ -20,8 +20,8 @@ services:
     environment:
       # @see https://phabricator.wikimedia.org/source/mediawiki/browse/master/includes/DefaultSettings.php
       MYSQL_RANDOM_ROOT_PASSWORD: 1
-      MYSQL_DATABASE: my_wiki
-      MYSQL_USER: wikiuser
-      MYSQL_PASSWORD: example
+      MYSQL_DATABASE: test_db
+      MYSQL_USER: test
+      MYSQL_PASSWORD: test
     volumes:
        - $HOME/volumes/mysql/data:/var/lib/mysql
